@@ -31,7 +31,7 @@ function validateCaptcha() {
     case 0: alert("Invalid Captcha. try Again"); att+=1; createCaptcha(); break;
     case 1: alert("It's terrible. Clean your glasses."); att+=1; createCaptcha(); break;
     case 2: alert("OK I understand your anger. But try again, answer is so close."); createCaptcha(); att+=1; break;
-    case 3: alert("SO close. Answers's font size: 600 pixels"); att+=1; createCaptcha(); break;
+    case 3: alert("SO close. Answers's font size: 500 pixels"); att+=1; createCaptcha(); break;
     case 4: alert("O_o. OK. Select WHOLE text on the page. May be you can't see the answer."); createCaptcha(); break;
   }
 }

@@ -29,7 +29,7 @@ function validateCaptcha() {
   if (document.getElementById("cpatchaTextBox").value == code) {
     window.location.href = "index3.html";
   }else{
-    alert("Invalid Captcha. try Again");
+    alert("Неверно! Попробуй ещё раз...");
     createCaptcha();
   }
 }
